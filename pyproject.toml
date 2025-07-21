@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "espelho2docx"
+version = "0.1.0"
+description = "Gera formulário .docx a partir do template LaTeX da PUC-Rio"
+authors = ["Caio Siqueira <csiqueira@puc-rio.br>"]
+readme = "README.md"
+packages = [{include = "espelho2docx"}]
+include = [
+    "espelho2docx/filters/*.lua"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1"
+pypandoc = "^1.12"
+python-docx = "^1.1"
+docx-form = "^1.0.3"
+pyyaml = "^6.0.2"
+tqdm = "^4.67.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"
+black = "^24.4"
+isort = "^5.13"
+
+[tool.poetry.scripts]
+espelho2docx = "espelho2docx.cli:cli"

@@ -1,0 +1,72 @@
+# ──────────── Python / Poetry ────────────
+# ambientes virtuais
+.venv/
+env/
+venv/
+# cache do Poetry
+.cache/pypoetry/
+# bytecode / compilados
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.egg
+*.egg-info/
+# relatórios de cobertura / testes
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+
+# logs
+*.log
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ──────────── LaTeX ────────────
+# arquivos temporários / auxiliares
+*.aux
+*.bbl
+*.blg
+*.brf
+*.dvi
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.lol
+*.nav
+*.out
+*.snm
+*.synctex*
+*.toc
+*.vrb
+*.xdy
+# imagens geradas por LaTeX
+*.pdf
+*.ps
+*.eps
+
+# ──────────── Builds gerados ────────────
+build/
+*.docx
+*.pdf
+
+# ──────────── Ferramentas / IDE ────────────
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+# macOS / Windows
+.DS_Store
+Thumbs.db
+# editor backups
+*~
+*.swp
